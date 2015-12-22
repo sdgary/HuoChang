@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_photo"
+        android:icon="@drawable/ic_action_photo"
+        android:showAsAction="always"
+        android:title="1"/>
+    <item
+        android:id="@+id/menu_video"
+        android:icon="@drawable/ic_action_video"
+        android:showAsAction="always"
+        android:title="2"/>
+    <item
+        android:id="@+id/menu_upload_picture"
+        android:icon="@drawable/ic_action_upload_picture"
+        android:showAsAction="always"
+        android:title="3"/>
+    <item
+        android:id="@+id/menu_upload_video"
+        android:icon="@drawable/ic_action_upload_video"
+        android:showAsAction="always"
+        android:title="4"/>
+
+</menu><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/menu/pic_menu.xml -->

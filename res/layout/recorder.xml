@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/bg_wood">
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/rebtn"
+        android:fastScrollEnabled="true"
+        android:dividerHeight="15dp"
+       android:paddingTop="10dp"
+       android:divider="@android:color/transparent"
+       android:layout_marginLeft="4dp"
+       android:layout_marginRight="4dp"
+/>
+    
+    <RelativeLayout
+        android:id="@+id/rebtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" 
+        >
+    <Button
+        android:id="@+id/mediarecorder1_AudioStartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="开始录音" />
+	<TextView 
+	    android:id= "@+id/tvtime"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBaseline="@+id/mediarecorder1_AudioStartBtn"
+
+        />"
+    <Button
+        android:id="@+id/mediarecorder1_AudioStopBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/mediarecorder1_AudioStartBtn"
+        android:text="停止录音" />
+
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/zxing.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="96b67e377ff4637ff1fa3bbe9ad7183773935f39">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/zxing-0b1d5f009f9a7dc1dffe5aa76ed4052bacd77cc0.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/exploded-aar/HuoChang/SlidingMenu/unspecified/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/android-support-v4-849d193e153a883c01b9a9a83f6ba4c51f005239.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/aXMLRPC.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1cd2705aafdfee65d58d25538cc0f49a33dceafc">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/aXMLRPC-43f99b22c13e368160f593d34784d619fb0c786d.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/gson-2.2.4-7adc136351cfa96db32fc27b391919cd0d5d999a.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/httpclient-4.3.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0171c67fa04952e76bc9ee1e578fe629db35d769">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/httpclient-4.3.1-e3aa17e6da444879173023671db295f643a9bba3.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/android-async-http-1.4.5-f81bbe08a8c099f77fd2af923a6616b375cc4e3f.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/asmack.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="41786d823e61e19321bf39b9efe58e91d6df3bf7">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/asmack-5dffad58ea41eebff9e2e10ac6ec1a51ca7b489a.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/exploded-aar/HuoChang/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5d43c01665c9172b5f8292cfc85d3ca764698719">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/classes-9c0fce29d08bbc475b22c88d9047c95829c761b6.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/exploded-aar/HuoChang/ABSLibrary/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dae826bd44152a80c76b7a1bb8732db7b66b0cd6">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/classes-eae2bef4bc744957df97ca0135cd7b25db62873d.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/andbase.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="624ae20237966a1f63d779f5b4eecb98536be012">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/andbase-1a9afbb9304c99459c5c7f12d25fa3b85f88f704.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/httpmime-4.3.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/httpmime-4.3.1-de3532e606ee1bc91af807759b8e89ac0fda108c.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/commons-httpclient-3.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="964cd74171f427720480efdec40a7c7f6e58426a">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/commons-httpclient-3.1-658e0fa61751411cc7bcb9cd85f2952eb3b366b3.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/httpcore-4.3.2-0deba149601cfe02f9085c402569c10e73c918eb.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/commons-net-3.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="643cc426b9f75aa111fac0fac0e52ff5d991a337">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/commons-net-3.0.1-95aeccee861f5ed9c510e1a496744f2df27965e3.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/fastjson-1.1.34.android.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="bef1d1224be099c387794bce1bdf81b38f37c6ce">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/fastjson-1.1.34.android-625bb319130369df4755a84072af5b7dd1e6b46a.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/libs/ksoap2-android-assembly-3.1.1-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ddcd1698b4bc242e26bfd99e3779688ab311b918">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.1.1-jar-with-dependencies-476dc5969f58160e9d9902bc2e76abba4f4a9040.jar" />
+    </item>
+    <item
+        jar="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/exploded-aar/HuoChang/SlidingMenu/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="00d19d1712d99ff64ea43e5269871acdf82b4bb6">
+        <dex dex="/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/pre-dexed/debug/classes-da160f4dedde02313d7d494cad74b15b9eb687b2.jar" />
+    </item>
+
+</items>

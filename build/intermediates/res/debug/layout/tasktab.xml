@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3"
+  >
+
+   <ListView
+       
+       android:id="@+id/lv_task"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/rlstate"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:dividerHeight="15dp"
+       android:paddingTop="10dp"
+       android:divider="#e3e3e3"
+       android:layout_marginLeft="4dp"
+       android:layout_marginRight="4dp"
+       
+    >
+    </ListView>
+    
+    <RelativeLayout
+        android:id="@+id/rlstate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" >
+		<Button 
+		    android:id = "@+id/refresh"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:background="@drawable/refresh_btn"
+		    />
+		<TextView android:id="@+id/idcardnum"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@+id/refresh"
+		     android:gravity="center"
+		     android:layout_above="@+id/tvstate"
+		    android:text=""/>
+        <TextView
+            android:id="@+id/tvstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/refresh"
+            android:layout_alignBottom="@+id/refresh"
+            android:paddingLeft="3dp"
+             android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="" />
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="3dp"
+            android:gravity="center"
+            android:layout_alignBaseline="@+id/tvstate"
+            android:textColor="#ffffff"
+            android:text="" />
+        
+    </RelativeLayout>
+
+
+
+</RelativeLayout><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/tasktab.xml -->

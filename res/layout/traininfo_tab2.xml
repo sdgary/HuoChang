@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="#e3e3e3"
+  >
+<RelativeLayout 
+    android:layout_alignParentTop="true"
+    android:id="@+id/qscolor_flag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/preference_single_item"
+    android:layout_marginBottom="5dp"
+    android:paddingBottom="5dp"
+    >
+      
+     <RelativeLayout android:id="@+id/gjh_title"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true">
+         <TextView android:id="@+id/head_title"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:textSize="30sp"
+             android:text=""/>
+         
+    <LinearLayout 
+    android:id="@+id/line"
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:layout_below="@+id/head_title"
+    android:layout_marginTop="2dp"
+    android:orientation="horizontal"
+    android:background="@drawable/mmfooter_list_moreframe_line"
+    />
+     
+     </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gjh_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/gjh_title" >
+
+        <TextView
+            android:id="@+id/NotifyTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="通知"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/plantime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/layout_color"
+            android:text="计划"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/actualtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="实际"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+    <LinearLayout 
+    android:id="@+id/line2"
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:layout_below="@+id/NotifyTime"
+    android:layout_marginTop="2dp"
+    android:orientation="horizontal"
+    android:background="@drawable/mmfooter_list_moreframe_line"
+    />
+    </RelativeLayout>
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/gjh_content"  >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="卡号  "
+            android:textSize="23sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvidnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="23sp" />
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+<RelativeLayout
+   android:id="@+id/lvtitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/qscolor_flag"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/tv_swh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:text="序号" />
+
+    <TextView
+        android:id="@+id/tv_ch"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_swh"
+        android:layout_marginLeft="80dp"
+        android:text="车号" />
+
+    <TextView
+        android:id="@+id/tv_pm"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_ch"
+        android:layout_alignBottom="@+id/tv_ch"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:text="品名" />
+
+</RelativeLayout>
+   <ListView
+       
+       android:id="@+id/lv_traininfo"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/rlstate"
+		android:layout_below="@+id/lvtitle"
+       android:layout_centerHorizontal="true"
+       android:dividerHeight="15dp"
+       android:divider="#e3e3e3"
+       android:paddingTop="5dp"
+       
+    >
+    </ListView>
+    
+    <RelativeLayout
+        android:id="@+id/rlstate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/tvstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="3dp"
+             android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="" />
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="3dp"
+            android:gravity="center"
+            android:layout_alignBaseline="@+id/tvstate"
+            android:textColor="#ffffff"
+            android:text="" />
+        
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

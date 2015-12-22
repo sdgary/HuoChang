@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_alignParentBottom="true"
+            >
+
+                <Button
+                    android:id="@+id/buSend"
+                    style="@style/simp_button"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/eTSend"
+                    android:text="发送" />
+
+                <EditText
+                    android:id="@+id/eTSend"
+                    style="@style/nor_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buSend"
+                    android:layout_alignBottom="@+id/buSend"
+                    android:layout_marginLeft="20dp"
+                    android:ems="10"
+                    
+                    android:inputType="textMultiLine"
+				 />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/relativeLayout3"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_men"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人员:"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/et_men"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/nor_edittext"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                style="@style/nor_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/linearLayout2"
+                android:ems="10"
+                android:gravity="left" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ListView
+                        android:id="@+id/listView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+                    </ListView>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/message_send.xml -->

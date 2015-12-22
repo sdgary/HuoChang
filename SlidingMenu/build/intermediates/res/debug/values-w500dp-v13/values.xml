@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/SlidingMenu/build/intermediates/exploded-aar/HuoChang/ABSLibrary/unspecified/res/values-w500dp-v13/values.xml -->
+    <eat-comment/>
+    <integer name="abs__max_action_buttons">4</integer>
+</resources>

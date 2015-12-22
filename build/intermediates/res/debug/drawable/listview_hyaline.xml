@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <stroke android:width="3dp" android:color="#00FF00"/>
+    <corners   
+        android:bottomLeftRadius="5dp"  
+        android:bottomRightRadius="5dp"  
+        android:topLeftRadius="5dp"  
+        android:topRightRadius="5dp"  
+        /> 
+
+     <!--Android UI美化之Shape Drawable的使用  http://wenku.baidu.com/link?url=Fj9-gx_82RROgIV3v8EAIQi-qAx4G-w0pUJC7cgu5pnJHDwQwwsISpmRjpC6pC4ByJP5OuHndE-J3MAC1ElimWTdgESp9vZ1NGT3Go2TMa3 -->
+</shape><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/drawable/listview_hyaline.xml -->

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher  xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/imagedialog_view_switcher" 
+   	android:layout_width="fill_parent" 
+   	android:layout_height="fill_parent">
+	<ProgressBar
+		android:id="@+id/imagedialog_progress" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		style="?android:attr/progressBarStyleLarge"
+		/>
+	
+	<RelativeLayout 
+		android:layout_width="fill_parent" 
+   		android:layout_height="fill_parent"
+	    >
+<!-- 
+android:numColumns="auto_fit" ，GridView的列数设置为自动 
+android:columnWidth="90dp"，每列的宽度，也就是Item的宽度
+android:stretchMode="columnWidth"，缩放与列宽大小同步
+android:verticalSpacing="10dp"，两行之间的边距，如：行一(NO.0~NO.2)与行二(NO.3~NO.5)间距为10dp
+android:horizontalSpacing="10dp"，两列之间的边距
+ -->
+    
+
+    <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="5dp"
+            android:layout_above="@+id/rl_bt_df"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerHorizontal="true"
+           	android:numColumns="3"
+            android:gravity="center"
+            android:padding="10dp"
+            
+     >            
+    </GridView>
+    
+    
+
+	
+		<RelativeLayout 
+		    android:id="@+id/rl_bt_df"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_alignParentBottom="true"
+		    >
+	    <Button 
+		    android:id="@+id/goback_bt"
+		    android:layout_width="100dp" 
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="15dip"
+		    android:background="@drawable/btn_style_white"
+		    android:layout_alignParentTop="true"
+		    android:layout_alignParentLeft="true"
+		    android:text="返回"
+		    />
+
+	    </RelativeLayout>
+    </RelativeLayout>
+</ViewSwitcher>

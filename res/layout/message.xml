@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wood"
+    >
+
+     <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lv_msg"
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrHeaderTextAppearance="@android:attr/textAppearanceMedium" />
+     
+    <RelativeLayout
+        android:id="@+id/rlstate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+         >
+		<Button 
+		    android:id = "@+id/refresh"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:background="@drawable/msg_new"
+		    />
+        <TextView
+            android:id="@+id/tvstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/refresh"
+            android:layout_alignBottom="@+id/refresh"
+            android:paddingLeft="3dp"
+             android:gravity="center"
+            
+            android:text="" />
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="3dp"
+            android:gravity="center"
+            android:layout_alignBaseline="@+id/tvstate"
+            android:textColor="#ffffff"
+            android:text="" />
+        
+    </RelativeLayout>
+</RelativeLayout>

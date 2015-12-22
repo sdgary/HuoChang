@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="30dp"
+    >
+
+    <RelativeLayout 
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" 
+        android:background="@drawable/preference_first_item">
+        
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp" 
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="任务  "
+            android:textSize="26sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/checkId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="26sp" />
+        
+           <TextView
+        android:id="@+id/checkType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="checkType"
+           android:gravity="right"
+           android:layout_weight="1"
+          style="@style/task_item_tv" 
+          android:textSize="30sp"/>
+
+    </LinearLayout>
+        
+        
+    </RelativeLayout>
+
+<RelativeLayout 
+    android:id="@+id/mid"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+	android:layout_below="@+id/top" 
+	android:background="@drawable/preference_item"
+    >
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp" 
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"  >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="卡号  "
+            android:textSize="26sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvidnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    
+    
+</RelativeLayout>
+<RelativeLayout 
+    android:id="@+id/mid1"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+	android:layout_below="@+id/mid" 
+	android:background="@drawable/preference_item"
+    >
+
+
+   <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+             android:paddingLeft="20dp" 
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" 
+      >
+
+    <TextView
+        android:id="@+id/planEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+       	android:layout_weight="1"
+        android:text="预完时间"
+        style="@style/task_item_tv"   /> 
+        
+
+      
+      
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+</LinearLayout>
+
+    
+    
+</RelativeLayout>
+<RelativeLayout 
+    android:id="@+id/mid2"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+	android:layout_below="@+id/mid1" 
+	android:background="@drawable/preference_item"
+    >
+
+
+     <LinearLayout 
+	    android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+             android:paddingLeft="20dp" 
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" 
+     >
+	    
+	     <TextView
+        android:id="@+id/icCardTime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="icCardTime1"
+       android:gravity="left"
+        android:layout_weight="1"
+         style="@style/task_item_tv"
+         />
+
+	    <TextView
+        android:id="@+id/icCardTime2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+       	 android:layout_marginRight="10dp"
+        android:text="icCardTime2"
+        	
+          style="@style/task_item_tv"
+         />
+	    
+	    
+	</LinearLayout>
+
+    
+    
+</RelativeLayout>
+
+
+	<RelativeLayout android:id="@+id/rlresult"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	            android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+         android:background="@drawable/preference_item"
+	     android:layout_below="@+id/mid2">
+
+	    <RatingBar
+	        android:id="@+id/ratingBar1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:isIndicator= "true"
+	        android:numStars="2"
+	        android:rating="0" />
+
+	    <TextView
+	        android:id="@+id/tvresult"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="27dp"
+	        android:gravity="center"
+	        android:text=""
+	        android:textSize="26sp" />
+
+	</RelativeLayout>
+    <RelativeLayout android:id="@+id/sentbtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+         android:layout_below="@+id/rlresult"
+        android:background="@drawable/preference_last_item"
+       >
+        
+        <Button android:id="@+id/btbsk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style_green"
+            android:text="上报"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

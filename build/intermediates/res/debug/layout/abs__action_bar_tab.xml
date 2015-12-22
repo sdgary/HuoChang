@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    class="com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView"
+    style="?attr/actionBarTabStyle"
+/><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/ABSLibrary/res/layout/abs__action_bar_tab.xml --><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/build/intermediates/exploded-aar/HuoChang/ABSLibrary/unspecified/res/layout/abs__action_bar_tab.xml -->

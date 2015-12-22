@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/preference_single_item" >
+
+
+    <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" >
+     
+            <TextView
+        android:id="@+id/rwh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="任务"
+              android:gravity="left"
+           android:layout_weight="1"
+          style="@style/task_item_tv" 
+          android:textSize="30sp"/>
+       <TextView
+        android:id="@+id/zyTypeHz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zyTypeHz"
+         android:gravity="center"
+        android:layout_weight="1"
+          style="@style/task_item_tv"
+          android:textSize="30sp"
+         />
+            
+      <TextView
+        android:id="@+id/xh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xh"
+           android:gravity="right"
+           android:layout_weight="1"
+          style="@style/task_item_tv" 
+          android:textSize="30sp"/>
+        
+    </LinearLayout>
+    
+        <LinearLayout  
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     android:background="@drawable/line"
+     />
+    <LinearLayout  
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     >
+
+      <!--TextView
+        android:id="@+id/zybc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zybc"
+           android:gravity="left"
+        android:layout_weight="1"
+      style="@style/task_item_tv"   / -->
+        
+    <!-- TextView
+        android:id="@+id/hwpl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_weight="1"
+           android:gravity="right"
+        android:text="hwpl"
+          style="@style/task_item_tv"
+         / -->
+        
+        
+    </LinearLayout>
+
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     >
+	    
+	     <TextView
+        android:id="@+id/ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ch"
+       android:gravity="left"
+        android:layout_weight="1"
+         style="@style/task_item_tv"
+         />
+
+	    <TextView
+        android:id="@+id/hwpm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+       	 android:layout_marginRight="10dp"
+        android:text="hwpm"
+        	
+          style="@style/task_item_tv"
+         />
+	    
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     >
+	    
+	     <TextView
+        android:id="@+id/zyds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zyds"
+        android:gravity="left"
+        android:layout_weight="1"
+        style="@style/task_item_tv"
+         />
+
+	    <TextView
+        android:id="@+id/pbTime"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="pbTime"
+       	 android:layout_marginRight="10dp"
+          style="@style/task_item_tv"
+         />
+	    
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     >
+	    
+	     <TextView
+        android:id="@+id/xh2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xh2"
+       android:gravity="left"
+        android:layout_weight="1"
+        style="@style/task_item_tv"
+         />
+
+	    <TextView
+        android:id="@+id/cp"
+        android:layout_width=" 250dp"
+        android:layout_height="wrap_content"
+      
+       	 android:layout_marginRight="10dp"
+        android:text="cp"
+          style="@style/task_item_tv"
+         />
+	    
+	    
+	</LinearLayout>
+
+   
+  <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+      >
+
+    <TextView
+        android:id="@+id/startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+       	android:layout_weight="1"
+        android:text="startTime"
+        style="@style/task_item_tv"   /> 
+    <TextView
+        android:id="@+id/zzTime"
+        android:layout_width=" 250dp"
+        android:layout_height="wrap_content"
+       	 android:layout_marginRight="10dp"
+        android:text="zzTime"
+        style="@style/task_item_tv"   />
+      
+      
+  </LinearLayout>
+  
+  
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/bu_zyks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style_white"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/red"
+            android:text="作业开始" />
+
+        <Button
+            android:id="@+id/bu_zyjs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/btn_style_white"
+            android:textColor="@color/red"
+            android:layout_marginRight="5dp"
+            android:text="作业结束" />
+        <Button
+            android:id="@+id/bu_xwlb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style_white"
+            android:textColor="@color/red"
+            android:layout_marginRight="5dp"
+            android:text="箱位列表" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

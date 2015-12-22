@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/preference_single_item" >
+
+
+    <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" >
+     
+    	    <RatingBar
+	        android:id="@+id/ratingBar1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:isIndicator= "true" 
+	        
+	        android:numStars="2"
+	        android:rating="0" />
+       <TextView
+        android:id="@+id/checkId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="checkId"
+         android:gravity="center"
+        
+        android:layout_weight="1"
+          style="@style/task_item_tv"
+          android:textSize="30sp"
+         />
+            
+      <TextView
+        android:id="@+id/checkType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="checkType"
+           android:gravity="right"
+           android:layout_weight="1"
+          style="@style/task_item_tv" 
+          android:textSize="30sp"/>
+        
+    </LinearLayout>
+    
+        <LinearLayout  
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     android:background="@drawable/line"
+     />
+    <LinearLayout  
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     >
+
+      <!--TextView
+        android:id="@+id/zybc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zybc"
+           android:gravity="left"
+        android:layout_weight="1"
+      style="@style/task_item_tv"   / -->
+        
+    <!-- TextView
+        android:id="@+id/hwpl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_weight="1"
+           android:gravity="right"
+        android:text="hwpl"
+          style="@style/task_item_tv"
+         / -->
+        
+        
+    </LinearLayout>
+<LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+      >
+
+    <TextView
+        android:id="@+id/planEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+       	android:layout_weight="1"
+        android:text="startTime"
+        style="@style/task_item_tv"   /> 
+
+      
+      
+  </LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     >
+	    
+	     <TextView
+        android:id="@+id/icCardTime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="icCardTime1"
+       android:gravity="left"
+        android:layout_weight="1"
+         style="@style/task_item_tv"
+         />
+
+	    <TextView
+        android:id="@+id/icCardTime2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+       	 android:layout_marginRight="10dp"
+        android:text="icCardTime2"
+        	
+          style="@style/task_item_tv"
+         />
+	    
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     >
+	    
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     >
+
+
+	    
+	    
+	</LinearLayout>
+  
+  
+
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/gdcarcheck_item.xml -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50.0dip"
+    android:background="@drawable/bg_gs_wood">
+    
+    <!-- ImageView
+        android:id="@+id/user_logo"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:background="@drawable/aa_avatar_default_circle"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"/ -->
+    
+    <Button 
+        android:id="@+id/traininfo_menu_gohome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首页"
+        android:textColor="#c1c1c1"
+        android:textSize="20.0dip"
+        android:layout_centerVertical="true"
+        android:background="@color/transparency"
+        android:layout_marginLeft="10.0dip"/>
+    
+    <ImageButton 
+        android:id="@+id/user2right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/aa_icon_next"
+        android:contentDescription="@null"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"/>
+    
+    
+
+</RelativeLayout>

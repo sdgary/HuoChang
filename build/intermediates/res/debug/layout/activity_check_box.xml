@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="byxx.android.huochang.checkBox.CheckBoxActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="请输入需要验证的箱号！"
+        android:layout_gravity="center_horizontal" />
+    <!--<LinearLayout-->
+       <!--android:id="@+id/uploadLayout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/editText"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:orientation="vertical">-->
+        <!--<Button-->
+            <!--android:id="@+id/upload"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/out_call"-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp"-->
+            <!--android:layout_gravity="center"-->
+             <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="上传图片"-->
+            <!--android:layout_gravity="center_horizontal"/>-->
+
+    <!--</LinearLayout> android:layout_alignBottom="@+id/uploadLayout"-->
+
+    <LinearLayout
+        android:id="@+id/takePhotoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/take"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/personactivity_takephoto_icon_normal"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="拍照"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+<!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/activity_check_box.xml -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/RelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+   android:background="@drawable/preference_single_item"
+     >
+
+<TextView 
+    android:id="@+id/tv_sender"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:textColor="#027bc8"
+    android:text="发送者"/>
+<TextView 
+    android:id="@+id/tv_sendTime"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/tv_sender"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:text="接收时间"/>
+
+	<LinearLayout 
+    android:id="@+id/line"
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:layout_below="@+id/tv_sender"
+    android:layout_marginTop="2dp"
+    android:orientation="horizontal"
+    android:background="@drawable/mmfooter_list_moreframe_line"
+    >
+    
+	</LinearLayout>
+<TextView 
+    android:id="@+id/tv_context"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_below="@+id/line"
+    android:layout_alignParentLeft="true"
+    android:text="内容"/>
+
+
+
+</RelativeLayout><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/message_item.xml -->

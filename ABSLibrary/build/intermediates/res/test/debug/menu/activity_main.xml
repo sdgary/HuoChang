@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/ -->
+
+</menu><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/ABSLibrary/res/menu/activity_main.xml --><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/ABSLibrary/build/intermediates/bundles/debug/res/menu/activity_main.xml -->

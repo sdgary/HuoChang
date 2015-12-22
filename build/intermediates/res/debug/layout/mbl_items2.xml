@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/preference_single_item"
+    android:paddingBottom="12dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/tv_swh"
+        style="@style/trianinfo_item_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="50dp"
+        android:text="1" />
+    
+    <Button
+        android:id="@+id/btndw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_style_white"
+        android:text="操作" />
+
+    <TextView
+        android:id="@+id/tv_pm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btndw"
+        android:layout_marginRight="30dp"
+        android:textSize ="20sp"
+        android:text="品名" />
+
+    <TextView
+        android:id="@+id/tv_jzxh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_swh"
+        android:layout_alignLeft="@+id/tv_ch"
+        android:text="箱号" />
+    
+    <!--  -->
+    <TextView
+        android:id="@+id/tv_cz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_jzxh"
+        android:layout_toRightOf="@+id/tv_ch"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_jzxh"
+        android:layout_alignBottom="@+id/tv_jzxh"
+        android:layout_alignLeft="@+id/tv_pm"
+        android:textColor="@color/red"
+        android:textSize="15sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tv_ch"
+        style="@style/trianinfo_item_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_jzxh"
+        android:layout_toRightOf="@+id/tv_swh"
+        android:text="车号" />
+
+<TextView
+        android:id="@+id/tv_kzbz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/tv_jzxh"
+        android:layout_below="@+id/tv_cz"
+        android:layout_alignParentLeft="true"
+        android:text="空重" />
+</RelativeLayout>
+
+
+<!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/mbl_items2.xml -->

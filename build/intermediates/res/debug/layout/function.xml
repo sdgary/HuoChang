@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sand"
+    >
+
+    <LinearLayout
+        android:id="@+id/contextlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true" 
+         android:layout_alignParentTop="true">
+       
+       <TextView
+        android:id="@+id/tVFunctionsRegions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dip"
+         android:textColor="#000000"
+         />
+        
+        
+        
+        <TextView
+        android:id="@+id/tVShowUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:textColor="#000000"
+        />
+        
+
+    </LinearLayout>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cousorLayout"
+        android:layout_below="@+id/contextlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.87"
+        android:background="#0000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+    
+    <LinearLayout
+        android:id="@+id/cousorLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dip"
+		android:layout_marginBottom="20dip"
+		>
+
+       <ImageView
+            android:id="@+id/leftCursor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/dot" />
+       
+        <ImageView
+            android:id="@+id/rightCursor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dip"
+            android:src="@drawable/dot" />
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/function.xml -->

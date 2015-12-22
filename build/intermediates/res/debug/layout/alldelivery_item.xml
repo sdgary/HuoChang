@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/RelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+   android:background="@drawable/preference_single_item"
+     >
+
+<TextView 
+    android:id="@+id/tv_hpid"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="货票"/>
+
+<TextView 
+    android:id="@+id/tv_pm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+ android:layout_centerHorizontal="true"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="品名"/>
+<TextView 
+    android:id="@+id/tv_js"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="件数"/>
+<TextView 
+    android:id="@+id/tv_jfzt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/tv_hpid"
+    android:layout_alignLeft="@+id/tv_hpid"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="交付状态"/>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/tv_js"
+    android:text="发货人 发站"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/alldelivery_item.xml -->

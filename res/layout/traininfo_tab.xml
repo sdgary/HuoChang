@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="#e3e3e3"
+  >
+
+   <com.handmark.pulltorefresh.library.PullToRefreshListView
+       
+       android:id="@+id/lv_traininfo"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/rlstate"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:dividerHeight="15dp"
+       android:divider="#e3e3e3"
+       android:paddingTop="5dp"
+       
+    >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+    
+    <RelativeLayout
+        android:id="@+id/rlstate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/tvstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="3dp"
+             android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="" />
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="3dp"
+            android:gravity="center"
+            android:layout_alignBaseline="@+id/tvstate"
+            android:textColor="#ffffff"
+            android:text="" />
+        
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

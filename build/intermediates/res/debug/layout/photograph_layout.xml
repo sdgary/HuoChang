@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <SurfaceView
+        android:id="@+id/mSurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/camera_linearLayout"
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+ >
+
+        <ImageView
+            android:id="@+id/myButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/takephoto" />
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:text="返回" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/photograph_layout.xml -->

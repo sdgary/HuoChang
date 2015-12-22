@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <item android:id="@+id/mbl_cheqianhui"
+          android:title="车前会"
+          android:showAsAction="ifRoom|withText" />
+    
+    <item android:id="@+id/mbl_update"
+          android:title="对位"
+          android:showAsAction="ifRoom|withText" />
+
+ 
+</menu>

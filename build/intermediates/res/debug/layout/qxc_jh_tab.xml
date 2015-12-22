@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="25dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@drawable/bg_wood"
+    >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_add"
+        android:layout_alignParentTop="true"
+        android:dividerHeight="15dp"
+       android:paddingTop="10dp"
+       android:divider="@android:color/transparent"
+    >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+    
+<RelativeLayout 
+    android:id="@+id/rl_add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true" >
+    
+    <Button
+        android:id = "@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/refresh_btn" />
+    <!-- ImageButton android:id="@+id/btn_add"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+         android:background="@drawable/mail_compose_add_btn"/ -->
+    <TextView android:id="@+id/state"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="90dp"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textColor="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/qxc_jh_tab.xml -->

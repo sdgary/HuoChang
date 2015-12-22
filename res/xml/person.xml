@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <!-- 下载 -->
+    <class id="1">
+        <name>应用搜索</name>
+        <icon>sidebar_content_app</icon>
+        <partid>1</partid>
+        <partname>下载</partname>
+    </class>
+    <class id="2">
+        <name>视频搜索</name>
+        <icon>sidebar_content_video</icon>
+        <partid>1</partid>
+        <partname>下载</partname>
+    </class>
+    <class id="3">
+        <name>音乐下载</name>
+        <icon>sidebar_content_music</icon>
+        <partid>1</partid>
+        <partname>下载</partname>
+    </class>
+     <class id="4">
+        <name>壁纸下载</name>
+        <icon>sidebar_content_wallpaper</icon>
+        <partid>1</partid>
+        <partname>下载</partname>
+    </class>
+     <class id="5">
+        <name>主题下载</name>
+        <icon>sidebar_content_theme</icon>
+        <partid>1</partid>
+        <partname>下载</partname>
+    </class>
+     <class id="6">
+        <name>漫画下载</name>
+        <icon>sidebar_content_cartoon</icon>
+        <partid>1</partid>
+        <partname>下载</partname>
+    </class>
+    <!-- 管理 -->
+     <class id="7">
+        <name>应用管理</name>
+        <icon>sidebar_manager_app</icon>
+        <partid>2</partid>
+        <partname>管理</partname>
+    </class>
+     <class id="8">
+        <name>豌豆洗白白</name>
+        <icon>sidebar_manager_video</icon>
+        <partid>2</partid>
+        <partname>管理</partname>
+    </class>
+     <class id="9">
+        <name>云备份</name>
+        <icon>sidebar_manager_cloud</icon>
+        <partid>2</partid>
+        <partname>管理</partname>
+    </class>
+    <class id="10">
+        <name>图片管理</name>
+        <icon>sidebar_manager_pic</icon>
+        <partid>2</partid>
+        <partname>管理</partname>
+    </class>
+    <class id="11">
+        <name>音乐管理</name>
+        <icon>sidebar_manager_music</icon>
+        <partid>2</partid>
+        <partname>管理</partname>
+    </class>
+    <!-- 便捷工具 -->
+    <class id="12">
+        <name>电脑连接</name>
+        <icon>sidebar_manager_conn</icon>
+        <partid>3</partid>
+        <partname>便捷工具</partname>
+    </class>
+    <class id="13">
+        <name>二维码扫描</name>
+        <icon>sidebar_feedback</icon>
+        <partid>3</partid>
+        <partname>便捷工具</partname>
+    </class>
+    
+    <!-- 设置 -->
+    <class id="14">
+        <name>设置</name>
+        <icon>sidebar_setting</icon>
+        <partid>4</partid>
+        <partname>设置</partname>
+    </class>
+    <class id="15">
+        <name>反馈</name>
+        <icon>sidebar_feedback</icon>
+        <partid>4</partid>
+        <partname>设置</partname>
+    </class>
+</persons>

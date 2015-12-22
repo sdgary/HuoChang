@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/qscolor_flag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/preference_single_item"
+    android:paddingBottom="5dp"
+    >
+    <!-- 总颜色代表 取送车标志 -->
+      <!-- 计划号 第几勾 勾序 -->  
+      
+     <RelativeLayout android:id="@+id/gjh_title"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true">
+         <TextView android:id="@+id/head_title"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:textSize="30sp"
+             android:text="计划好"/>
+
+         
+         
+    <LinearLayout 
+    android:id="@+id/line"
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:layout_below="@+id/head_title"
+    android:layout_marginTop="2dp"
+    android:orientation="horizontal"
+    android:background="@drawable/mmfooter_list_moreframe_line"
+    />
+
+    
+
+    <TextView
+        android:id="@+id/tv_cheqh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/head_title"
+        android:layout_alignBottom="@+id/head_title"
+        android:layout_toRightOf="@+id/head_title"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/red" />
+     
+     </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gjh_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/gjh_title" >
+
+        <TextView
+            android:id="@+id/NotifyTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="通知"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layout_color"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal" >
+
+            <!-- 完成未完成标示 -->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/plantime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            
+            android:layout_toRightOf="@+id/layout_color"
+            android:text="计划"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/actualtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="实际"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+  
+</RelativeLayout>
+<!-- From: file:/Users/wgary/Documents/workspace/AndroidWorkbench2/HuoChang/res/layout/gjh_item.xml -->

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+<RelativeLayout 
+   android:id="@+id/rl_hpNo"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_alignParentLeft="true"
+   android:layout_alignParentTop="true"
+   android:background="@drawable/preference_single_item"
+  	android:paddingTop="10dp"
+  	android:paddingBottom="15dp"
+    >
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_hpNo"
+        android:layout_alignBottom="@+id/et_hpNo"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:text="货票号：" />
+        
+    <EditText
+        android:id="@+id/et_hpNo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/edittext_selector"
+        android:ems="15" >
+
+ 
+
+    </EditText>
+    
+    <Button
+        android:id="@+id/btn_order_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_hpNo"
+        android:layout_alignParentRight="true"
+         android:background="@drawable/btn_style_green"
+        android:text="查询" />
+	<TextView  android:id="@+id/state"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/et_hpNo"
+	    android:layout_alignLeft="@+id/et_hpNo"
+	    android:layout_marginTop="5dp"
+	    android:textSize="26sp"
+	    android:textStyle="bold"
+	    android:text= ""/>
+  </RelativeLayout>  
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rl_hpNo"
+    android:layout_marginTop="10dp"
+    android:padding="15dp"
+    android:background="@drawable/preference_single_item"
+    >
+	
+    
+   <TextView 
+       android:id="@+id/tv_hw"
+       android:layout_marginBottom="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="货票"
+       />
+
+   <TextView
+       android:id="@+id/tv_pm"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+		android:layout_alignBaseline="@+id/tv_hw"
+		android:layout_alignBottom="@+id/tv_hw"
+       android:text="品名"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <TextView
+       android:id="@+id/tv_js"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/tv_hw"
+       android:layout_alignParentRight="true"
+       android:text="件数"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <TextView 
+       android:id="@+id/tv_jbrq"
+             android:layout_marginBottom="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/tv_hw"
+       android:text="限搬日期"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+   <TextView 
+       android:id="@+id/tv_cphm"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/tv_jbrq"
+       android:text="车牌号码"
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <Spinner
+       android:id="@+id/spinner1"
+       android:layout_width="80dp"
+       android:layout_marginLeft="10dp"
+       android:layout_height="40dp"
+       android:gravity="center"
+       android:layout_alignBottom="@+id/tv_cphm"
+       android:layout_toRightOf="@+id/tv_cphm" />
+   
+   <Spinner
+       android:id="@+id/spinner2"
+       android:layout_width="50dp"
+       android:layout_marginLeft="10dp"
+       android:layout_height="40dp"
+       android:gravity="center"
+       android:layout_alignBottom="@+id/tv_cphm"
+       android:layout_toRightOf="@+id/spinner1" />
+   
+   <EditText 
+       android:id="@+id/et_cphm"
+       android:layout_width="wrap_content"
+       android:layout_alignBottom="@+id/tv_cphm"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+       android:background="@drawable/edittext_selector"
+       android:layout_toRightOf= "@+id/spinner2"
+       android:ems="8"/>
+   <TextView
+       android:id = "@+id/tv_state"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_marginTop="150dp"
+    	android:layout_alignBottom="@+id/btn_jf"
+    	android:layout_alignParentLeft="true"
+    	android:gravity="center"
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	  android:text="交付状态  备注"
+    	/>
+	<Button 
+    	android:id = "@+id/btn_jf"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginTop="150dp"
+    	android:layout_marginRight="10dp"
+    	 android:background="@drawable/btn_style_green"
+    	android:text="交付"
+    />
+	<Button 
+    	android:id = "@+id/btn_bfjf" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginTop="150dp"
+    	android:layout_marginRight="80dp"
+    	 android:background="@drawable/btn_style_green"
+    	android:text=" 部分交付"
+    />
+</RelativeLayout>
+</RelativeLayout>

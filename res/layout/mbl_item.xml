@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/RelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+   android:background="@drawable/preference_single_item"
+     >
+
+    <TextView
+        android:id="@+id/tv_pm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_cz"
+        android:text="品名"
+        />
+
+    <TextView
+        android:id="@+id/tv_swh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="顺位号"
+         style="@style/trianinfo_item_textview" />
+
+    <TextView
+        android:id="@+id/tv_ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:text="车号"
+         style="@style/trianinfo_item_textview"  />
+
+    <TextView
+        android:id="@+id/tv_cz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_swh"
+        android:layout_alignBottom="@+id/tv_swh"
+        android:layout_toLeftOf="@+id/btndw"
+        android:layout_marginRight="20dp"
+        android:text="车种"
+         style="@style/trianinfo_item_textview" />
+
+    <TextView
+        android:id="@+id/tv_kzbz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/tv_cz"
+        android:layout_alignRight="@+id/tv_cz"
+        android:text="空重" />
+    
+  <Button android:id="@+id/btndw"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="查看"
+      android:background="@drawable/btn_style_white"
+      android:layout_alignParentRight="true"/>
+</RelativeLayout>

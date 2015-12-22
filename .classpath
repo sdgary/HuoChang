@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="E:/ByxxWorkSpace/ByxxProject/AndroidGZD/GoogleZXingDemo/libs/zxing.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/ByxxWorkSpace/ByxxProject/lib/httpcore-4.3.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpmime-4.3.1.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-net-3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/asmack.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/aXMLRPC.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/gson-2.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ksoap2-android-assembly-3.1.1-jar-with-dependencies.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="E:/ByxxWorkSpace/ByxxProject/DaLang/DaLangHuoChang/libs/fastjson-1.1.34.android.jar"/>
+	<classpathentry kind="lib" path="E:/ByxxWorkSpace/ByxxProject/DaLang/WjUtilForAndroid/libs/android-async-http-1.4.5.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

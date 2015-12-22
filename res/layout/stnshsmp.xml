@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" 
+     android:background="@drawable/bg_wood">  
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp" >
+    
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+<RelativeLayout 
+    android:id="@+id/rl_jzxh1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+	android:background="@drawable/preference_single_item"
+	android:paddingBottom="20dp"
+	android:paddingTop="10dp"
+    >
+        
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_jzxh1"
+        android:layout_alignBottom="@+id/et_jzxh1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:text="箱号1" />
+        
+     	<EditText
+        android:id="@+id/et_jzxh1"
+        android:layout_width="wrap_content"
+         android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/edittext_selector"
+		android:ems="8" /> 
+		
+     	<Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignBaseline= "@+id/et_jzxh1"
+        android:layout_alignBottom="@+id/et_jzxh1"
+        android:layout_alignParentRight="true"
+          android:background="@drawable/btn_style_white"
+        android:text="上报" />
+     	<Button
+        android:id="@+id/btnreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBaseline= "@+id/et_jzxh1"
+        android:layout_alignBottom="@+id/et_jzxh1"
+        android:layout_toRightOf="@+id/et_jzxh1"
+          android:background="@drawable/btn_style_white"
+        android:text="重置" />
+
+     <RelativeLayout
+         		android:id="@+id/rl_xh1_context"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:layout_marginTop="15dp"
+     	        android:layout_below="@+id/textView2"
+     	        android:layout_alignLeft="@+id/textView2" 
+     	        >
+
+		     <GridView
+		         android:id="@+id/picture_grid_1"
+		         android:layout_width="match_parent"
+		         android:layout_height="500dp"
+		         android:layout_alignParentLeft="true"
+		         android:layout_toLeftOf="@+id/imgbtn1_add"
+		         android:columnWidth="300dip"
+		         android:gravity="center"
+		         android:numColumns="2"
+		         android:stretchMode="columnWidth" />
+
+ 			 <ImageButton 
+     	          android:id="@+id/imgbtn1_add"
+     	        android:layout_width="60dp"
+     	        android:layout_height="60dp"
+     	        android:src="@drawable/app_panel_add_icon"
+     	        android:layout_alignParentRight="true"
+     	   /> 
+ 			 <ImageButton 
+     	          android:id="@+id/imgbtn1_del"
+     	        android:layout_width="60dp"
+     	        android:layout_height="60dp"
+     	        android:layout_below="@+id/imgbtn1_add"
+     	        android:layout_alignRight="@+id/imgbtn1_add"
+     	        android:src="@drawable/app_panel_del_icon"
+     	        android:layout_alignParentRight="true"
+     	        android:visibility="gone"
+     	   /> 
+ 			
+     	    </RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/xh1_img_show"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/rl_xh1_context"
+	    >
+	    
+	    <Button 
+	        android:id= "@+id/img_query_1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignBaseline="@+id/ser_img1"
+          android:background="@drawable/btn_style_white"
+          android:text="已传图片"
+	        />
+	</RelativeLayout>
+</RelativeLayout>
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>
+</RelativeLayout>

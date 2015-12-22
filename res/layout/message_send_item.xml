@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/RelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/bg_wood"
+     >
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/incoming"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <RelativeLayout
+        android:id="@+id/incoming"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/in_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/sender"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/incoming"
+            android:text="来消息来消息来消息来消息来消息来消息v来消息来消息来消息来消息" />
+
+        <TextView
+            android:id="@+id/sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/in_msg"
+          	android:layout_alignParentLeft="true"
+          	android:background="@drawable/btn_white_bg"
+            android:text="来信人" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/outgoing"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/out_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/out_user"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/outgoing"
+            android:text="发消息" />
+
+        <TextView
+            android:id="@+id/out_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/out_msg"
+          	android:layout_alignParentRight="true"
+          	android:background="@drawable/btn_white_bg"
+            android:text="发信人" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

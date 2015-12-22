@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="byxx.android.huochang"
+    android:hardwareAccelerated="true"
+    android:versionCode="16"
+    android:versionName="BY-0.0.0.18" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- Needed to allow Linphone to install on tablets, since android.permission.CALL_PHONE implies android.hardware.telephony is required -->
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- 修改网络状态的权限 -->
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- 修改wifi状态的权限 -->
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!-- 访问网络权限 -->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 访问网络权限 -->
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- 访问wifi权限 -->
+
+    <!-- uses-permission android:name="android.permission.MODIFY_PHONE_STATE" / -->
+
+    <!-- 修改电话状态，如电源、人机接口等 -->
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="byxx.android.huochang.AcMain"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.function.AcFunction"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.dw.AcDW"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.dw.AcNewDw"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.dw.AcDWTab"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.dw.AcDWFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.dw.AcJzx"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.dw.AcMBL"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.traininfo.AcTrainInfoTab"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.traininfo.AcNewTrainInfo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.traininfo.AcTrainInfoFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.traininfo.AcTrainInfo"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.task.AcTask"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.task.AcNewTask"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.task.AcTasktab"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.task.AcTaskFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.task.AcNewTaskFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.stnsh.AcSH"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.stnsh.AcSHsmp"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.scanner.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.movebox.MoveBoxDetailListActivity"
+            android:label="@string/title_activity_move_box_detail" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.movebox.MoveBoxPageActivity"
+            android:label="@string/title_activity_move_box_page" >
+        </activity>
+
+        <activity
+            android:name="byxx.android.huochang.nfc.AcNFC"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+                <action android:name="byxx.android.station.action.NFC_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/filter_nfc" />
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.guardtour.AcGuardTour"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.picture.AcPicture"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.picture.ImageDialog"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.HalfTranslucent" />
+        <activity
+            android:name="byxx.android.huochang.picture.ImageZoomDialog"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ZoomLight.Fullscreen" />
+        <activity
+            android:name="byxx.android.huochang.picture.ShowImage"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.HalfTranslucent" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.update.AcUpdate"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.alert.AcAlertDialog"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.alert.AcTaskChange"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.jf.AcDelivery"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.jf.AcDelivery2"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.storemanager.AcStoreManager"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.storemanager.AcGoodsDetail"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.jf.AcAllDelivery"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.jf.AcDeliveryFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.message.AcMessage"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.message.AcMessageSend"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="byxx.android.huochang.recorder.AcRecorder"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.gdcarcheck.AcGdCarCheck"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.gdcarcheck.AcGDCarcheckOne"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="byxx.android.huochang.update.SeUpdate" >
+        </service>
+        <service android:name="byxx.android.huochang.ftp.SeUploading" >
+        </service>
+        <service android:name="byxx.android.huochang.SeHeartBeat" >
+        </service>
+-
+
+
+
+        <receiver android:name="byxx.android.huochang.BootBroadcastReceiver" >
+-
+
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="byxx.android.wj.http.cache.HttpCacheService2" >
+        </service>
+
+        <activity
+            android:name="byxx.android.huochang.activity.movebox.MoveBoxDetailListActivity"
+            android:label="@string/title_activity_move_box_detail" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.activity.movebox.MoveBoxPageActivity"
+            android:label="@string/title_activity_move_box_page" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.scanner.BarCodeActivity"
+            android:label="@string/title_activity_bar_code" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.task.AcZxTask"
+            android:label="@string/title_activity_ac_zx_task" >
+        </activity>
+        <activity
+            android:name="byxx.android.huochang.task.AcZxTaskOne"
+            android:label="@string/title_activity_ac_zx_task_one" >
+        </activity>
+    </application>
+
+</manifest>
